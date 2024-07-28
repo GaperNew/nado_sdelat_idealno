@@ -31,7 +31,8 @@ body {
   display: flex;
   z-index: 0;
   justify-content: center;
-  margin: 0px
+  margin: 0px;
+  padding-top: 60px;
 }
 
 video {
