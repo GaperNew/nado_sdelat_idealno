@@ -33,10 +33,18 @@ video {
   z-index: 1;
   align-self: start;
   font-family: "Raleway";
-  font-weight: bold;
-  font-size: 116px;
   max-width: 739px;
+  font-weight: 800;
+  font-size: 116px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
+
+
+.page__heading::after {
+  content: '*';
+}
+
 
 body::before {
   content: "";
@@ -50,7 +58,7 @@ body::before {
 }
 
 .page__heading:hover::before {
-  content: "На самом деле нет.\A Важнее — научиться ошибаться.";
+  content: "На самом деле нет.\A Важнее &mdash; научиться ошибаться.";
   white-space: pre-line;
   position: absolute;
   text-align: start;
@@ -63,9 +71,11 @@ body::before {
   border: 2px solid black;
   border-bottom-width: 14px;
   border-radius: 20px;
-  font-family: "Raleway", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 35px;
+  line-height: 100%;
+  text-transform: none;
+  letter-spacing: 0em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
   padding: 36px 44px;
