@@ -77,6 +77,10 @@ body::before {
   z-index: 1;
 }
 
+.page__heading:hover {
+  color: #4C4C4C;
+}
+
 .page__heading:hover::before {
   content: "На самом деле нет.\A Важнее &mdash; научиться ошибаться.";
   white-space: pre-line;
@@ -97,6 +101,6 @@ body::before {
   text-transform: none;
   letter-spacing: 0em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  z-index: 100;
   padding: 36px 44px;
 }
