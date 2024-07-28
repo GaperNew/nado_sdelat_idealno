@@ -3,6 +3,22 @@
 *::after {
   box-sizing: border-box;
 }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+
+}
 
 html {
   height: 100%;
@@ -11,7 +27,7 @@ html {
 body {
   height: inherit;
   position: relative;
-  min-height: 800px;
+  min-width: 800px;
   display: flex;
   z-index: 0;
   justify-content: center;
