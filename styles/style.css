@@ -17,7 +17,6 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-
 }
 
 html {
@@ -36,7 +35,6 @@ body {
 }
 
 video {
-
   position: absolute;
   inset: 0;
   width: 100%;
@@ -102,4 +100,3 @@ body::before {
   z-index: 100;
   padding: 36px 44px;
 }
-
